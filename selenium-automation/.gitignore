@@ -1,0 +1,43 @@
+# Maven
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Allure Results & Reports
+allure-results/
+allure-report/
+
+# IDE - Eclipse
+.eclipse/
+.classpath
+.project
+.settings/
+
+
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Screenshots (captured during test runs)
+screenshots/
+
+# TestNG output
+test-output/
+
+# Environment / Secrets
+.env
+config.properties
+src/test/resources/config.properties
+
+# WebDriver binaries
+drivers/
+*.exe
+chromedriver
+geckodriver
